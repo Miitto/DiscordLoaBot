@@ -1,3 +1,4 @@
 .env
-index.js
-loaCommands.js
+./index.js
+./loaCommands.js
+dist/

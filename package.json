@@ -1,0 +1,20 @@
+{
+  "name": "discordloabot",
+  "version": "1.0.0",
+  "description": "A Discord Bot for Tracking LOAs for 40 Commando",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "author": "Miitto",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": ["*.json"]
+  }
+}
